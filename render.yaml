@@ -20,7 +20,7 @@ services:
       - key: COMMAND_NAME
         value: "!gpt"
       - key: TWITCH_USER  # https://dev.twitch.tv/console
-        value: "BrainBot"
+        value: "BraiNext"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
         value: "oauth:5r95uvj5fh5hcgl8fugv3oqlndzbeh"
       - key: SEND_USERNAME
