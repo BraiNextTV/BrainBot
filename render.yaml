@@ -8,9 +8,9 @@ services:
     startCommand: npm start
     envVars:
       - key: OPENAI_API_KEY
-        value: <your-openai-api-key>
+        value: sk-enbJYK-KFwVBOb1Zpw3S5wQAa9jzevgmzFA_ZxFZjhT3BlbkFJp7f1Anub93unQVoDpFl3DQwwyDkUF0mGsnVWSnmCEA
       - key: CHANNELS
-        value: <your-twitch-channel>
+        value: BraiNext
       - key: GPT_MODE
         value: "CHAT"
       - key: HISTORY_LENGTH
@@ -20,9 +20,9 @@ services:
       - key: COMMAND_NAME
         value: "chat"
       - key: TWITCH_USER  # https://dev.twitch.tv/console
-        value: "oSetinhasBot"
+        value: "BrainBot"
       - key: TWITCH_AUTH  # https://twitchapps.com/tmi/
-        value: "oauth:9wh6ujbu2mro28zhbl8z6z921iuyxz"
+        value: "oauth:5r95uvj5fh5hcgl8fugv3oqlndzbeh"
       - key: SEND_USERNAME
         value: "true"
       - key: ENABLE_TTS
